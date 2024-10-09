@@ -18,8 +18,7 @@ try:
     # конвертировать в  PDF
     pdf_bytes = img2pdf.convert(image.filename)
 
-    # Opening or creating pdf file
-    with open(pdf_path, "wb") as file:
+   with open(pdf_path, "wb") as file:
         # Writing pdf files with chunks
         file.write(pdf_bytes)
 
