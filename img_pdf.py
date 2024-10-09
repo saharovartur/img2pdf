@@ -1,6 +1,8 @@
+import os
+
 import img2pdf
 from PIL import Image
-import os
+
 
 # Путь до вашего фото
 img_path = r"C:\Users\YourUserName\Desktop\я.jpg"
